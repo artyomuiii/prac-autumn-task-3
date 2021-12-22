@@ -1,0 +1,11 @@
+{% extends "my_base.html" %}
+
+{% block content %}
+
+<h2><b>Выберите тип модели:</b></h2>
+<ul>
+    <li><a href="{{ url_for('rand_forest_set_params') }}">Random Forest</a></li>
+    <li><a href="{{ url_for('grad_boost_set_params') }}">Gradient Boosting</a></li>
+
+</ul>
+{% endblock %}

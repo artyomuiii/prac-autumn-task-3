@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+{% if signature %}
+<h3>{{ signature }}</h3>
+<hr>
+{% endif %}
+
+<div class="container">
+      {{ wtf.quick_form(form) }}
+</div>
+
+{% if y_pred_flag %}
+<a href="">Предсказание модели</a>
+{% endif %}
+
+{% if list %}
+<h4>{{ name_list }}</h4>
+{% for elem in list %}
+    <div> &nbsp;&nbsp; {{ elem }}</div>
+{% endfor %}
+{% endif %}
+
+{% endblock %}

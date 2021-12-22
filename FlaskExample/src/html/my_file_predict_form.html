@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<h3>Загрузка данных для предсказания</h3>
+Для предсказания загрузите данные в виде файла с расширением .csv, который представлен в том же<br>
+формате, что и данные для обучения модели за исключением отсутствия столбца с целевой переменной.<br>
+<a href="https://www.kaggle.com/harlfoxem/housesalesprediction/download">Скачать zip архив с данными.</a>
+<hr>
+<div class="container">
+      {{ wtf.quick_form(form) }}
+</div>
+
+{% endblock %}
