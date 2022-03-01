@@ -11,11 +11,11 @@
 
 ### Процесс сборки и запуска контейнера
 Для сборки контейнера необходимо выполнить следующий код:
-`chmod ugo+x scripts/build.sh
+`chmod ugo+x scripts/build.sh  
 ./scripts/build.sh`
 
 Для запуска контейнера:
-`chmod ugo+x scripts/run.sh
+`chmod ugo+x scripts/run.sh  
 ./scripts/run.sh`
 
 ### Список литературы
