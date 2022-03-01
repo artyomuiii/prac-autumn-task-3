@@ -1,0 +1,19 @@
+<html>
+    <head>
+        {% if title %}
+        <title>{{ title }} - ML сервер</title>
+        {% else %}
+        <title>ML сервер</title>
+        {% endif %}
+    </head>
+    <body>
+        <div>
+            ML сервер:
+            <a href="{{ url_for('index') }}">Начальная страница</a>
+            &nbsp;
+            <a href="{{ url_for('info') }}">Информация</a>
+        </div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
