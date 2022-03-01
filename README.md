@@ -10,16 +10,16 @@
 ![image](https://user-images.githubusercontent.com/90242691/156245170-a6606bab-bb1e-45fe-a3f2-83b57ed67759.png)
 
 ### Процесс сборки и запуска контейнера
-Для сборки контейнера необходимо выполнить следующий код:
+Для сборки контейнера необходимо выполнить следующий код в терминале:
 ```
-$ chmod ugo+x scripts/build.sh
-$ ./scripts/build.sh
+chmod ugo+x scripts/build.sh
+./scripts/build.sh
 ```
 
 Для запуска контейнера:
 ```
-$ chmod ugo+x scripts/run.sh
-$ ./scripts/run.sh
+chmod ugo+x scripts/run.sh
+./scripts/run.sh
 ```
 
 ### Список литературы
