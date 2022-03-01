@@ -4,4 +4,4 @@
 2. Проведены эксперименты на реальных данных **House Sales in King County, USA**.
 3. Реализован веб-сервер на Flask, решение обёрнуто в docker контейнер.
 
-Датасет **House Sales in King County, USA** находится в папке data.
+Датасет **House Sales in King County, USA** находится в папке `data`.
