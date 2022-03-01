@@ -1,3 +1,6 @@
-### Запуск Flask примера для Docker
-1. Чтобы собрать докер образ: `docker build -t repo_name/image_name:image_tag .`
-2. Чтобы его запустить: `docker run -p 5000:5000 -v "$PWD/FlaskExample/data:/root/FlaskExample/data" --rm -i repo_name/image_name`
+### Ансамбли алгоритмов. Композиции алгоритмов для решения задачи регрессии. Веб-сервер.
+
+1. Реализованы методы **случайный лес** и **градиентный бустинг**.
+2. Проведены эксперименты на реальных данных **House Sales in King County, USA**.
+3. Реализован веб-сервер на Flask, решение обёрнуто в docker контейнер.
+
