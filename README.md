@@ -11,14 +11,16 @@
 
 ### Процесс сборки и запуска контейнера
 Для сборки контейнера необходимо выполнить следующий код:
-`chmod ugo+x scripts/build.sh
-
-./scripts/build.sh`
+```
+chmod ugo+x scripts/build.sh
+./scripts/build.sh
+```
 
 Для запуска контейнера:
-`chmod ugo+x scripts/run.sh
-
-./scripts/run.sh`
+```
+chmod ugo+x scripts/run.sh
+./scripts/run.sh
+```
 
 ### Список литературы
 1. [*Воронцов К. В.* - Линейные ансамбли.](http://www.machinelearning.ru/wiki/images/3/3a/Voron-ML-Compositions1-slides.pdf)
